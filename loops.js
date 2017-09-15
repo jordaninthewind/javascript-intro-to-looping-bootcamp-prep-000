@@ -1,5 +1,5 @@
-function forLoop(array) {
-  for (var i = 0; i < 24; i++) {
+function forLoop(array, num) {
+  for (var i = 0; i < num; i++) {
     array.push(`I am ${i} strange loop${i === 0 ? '' : 's'}.`);
   }
 return array;
